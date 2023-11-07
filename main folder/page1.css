@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #35365d;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size:22px;
+}
+.col p{
+    color:floralwhite;
+    font-size: 38px;
+    margin: 5px 250px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+.navcolor{
+    background:linear-gradient(to bottom right,#b71729,#42284e);
+    max-height: 130px;
+}
+.header{
+    min-width: 800px;
+    width: 100%;
+}
+
+.page{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    align-items: center;
+    justify-content:space-around;
+}
+.page div img{
+    width:40%;
+    height: 60%;
+}
+.page div{
+    width: 30%;
+    height:40%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.name{
+    font-size: 30px;
+    color: #333;
+}
+
+.desc{
+    color: #777;
+    font-size:xx-large;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 20px;
+}
+.view{
+    display: inline-block;
+    background-color: rgb(255, 187, 0);
+    color: white;
+    margin-left: 10px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.page div:hover{
+    width: 31%;
+    height: 41%;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    background:linear-gradient(to bottom right,#b71729,#42284e);
+    color: #fff;
+}

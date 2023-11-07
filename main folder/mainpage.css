@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   background:linear-gradient(to bottom right,#42284e,#b71729);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 30px;
+}
+a:hover{
+    color: gold;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.col{
+    flex-basis:50%;
+    min-width: 400px;
+}
+.col img{
+    width: 1300px;
+    height:1000px;
+    padding: 0px 50px;
+    padding-bottom: 50px;
+    margin: 40px 60px;
+    
+}
+.col p{
+    color:floralwhite;
+    font-size: 38px;
+    margin: 5px 250px;
+}
+.col h1{
+    font-size: 100px;
+    line-height: 100px;
+    margin: 25px 250px;
+}
+.btn{
+    display: inline-block;
+    background-color:#35365d;
+    color: white;
+    padding: 20px 50px;
+    font-size: 30px;
+    margin: 30px 250px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: rgb(243, 239, 239);
+    color: black;
+    transition-delay: 2s;
+    transition:background .5s;
+    padding:25px 55px;
+    font-size: 35px;
+}
+.navcolor{
+    background:linear-gradient(to bottom right,#b71729,#42284e);
+    max-height: 130px;
+}
+.header{
+    min-width: 800px;
+    width: 100%;
+}
+.header .row{
+    margin-top: 2px;
+}
+/*now i am going to create the product description*/
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products{
+    margin: 100px 0;
+}
+.list{
+    flex-basis: 20%;
+    min-width:300px;
+    margin-bottom: 20px;
+}
+.list img{
+    width: 98%;
+    height: 98%;
+    border: 4px solid orange;
+}
+.list img:hover{
+    width:100%;
+    height:100%;
+}
+.box{
+    max-width: 80%;
+    margin: auto;
+    padding: 0 25px;
+    text-align: center;
+}
+.box h1{
+    text-decoration: underline  rgb(238, 147, 20);
+    margin: 15px 0;
+    font-size: 35px;
+}
+.products h1{
+    font-size: 35px;
+    line-height: 100px;
+    text-align: center ;
+    margin-bottom: 20px;
+    text-decoration: underline  rgb(238, 147, 20);
+}
+.list1{
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 300px;
+    margin: 25px 0;
+    width: 100%;
+    color: white;
+}
+.list1 p{
+    color: black;
+}
+.list1 img{
+    width: 65%;
+    height: 65%;
+    border: 4px solid orange;
+}
+.list1 img:hover{
+    width: 67%;
+    height: 67%;
+}
+p{
+    padding:10px;
+    margin-left: 160px;
+    font-weight: 500;
+    font-size: 30px;
+    color: blanchedalmond;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    margin: 0 150px;
+}
+marquee{
+    color: white;
+    padding:10px 0;
+    width:100%;
+    font-size: 20px;
+    background-color: #42284e;  
+}
+.btn1{
+    display: inline-block;
+    background-color:purple;
+    color: white;
+    padding: 20px 50px;
+    font-size: 30px;
+    margin: 30px 28%;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: rgb(243, 239, 239);
+    color: black;
+    transition-delay: 2s;
+    transition:background .5s;
+    font-size: 35px;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 25px; 
+    background-color: #007bff;
+    color: #fff;
+}
+.list1 img{
+    animation-name: images;
+    animation-duration: 1s;
+}
+@keyframes images {
+    0%{
+        width:0%;
+        height:0%;
+    }
+    100%{
+        width:65%;
+        height:65%;
+    }
+}
+.list img{
+    animation-name: image;
+    animation-duration: 1s;
+}
+@keyframes image {
+    0%{
+        width:0%;
+        height:0%;
+    }
+    100%{
+        width:98%;
+        height:98%;
+    }
+}
+#para{
+    animation-name: opac;
+    opacity:100%;
+    animation-duration: 5s;
+    
+}
+@keyframes opac{
+    0%{
+        opacity: 0%;
+        color: black;
+    }
+    80%{
+        opacity: 80%;
+        color: green;
+    }
+    100%{
+        opacity: 100%;
+        color:white;
+    }
+}
